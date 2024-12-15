@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="შალვა იმნაძე" />
+    <meta name="description" content="Practising CSS" />
+    <meta property="og:description" content="Practising CSS" />
+    <meta property="og:image" content="./icon/icon.svg" />
+    <meta property="og:title" content="Submit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit form</title>
+    <link rel="icon" href="./icon/icon.svg" />
+    <link rel="stylesheet" href="./styles/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind+Vadodara:wght@300;400;500;600;700&family=IBM+Plex+Sans+KR&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Phetsarath:wght@400;700&family=Poetsen+One&family=Prata&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind+Vadodara:wght@300;400;500;600;700&family=IBM+Plex+Sans+KR&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Phetsarath:wght@400;700&family=Poetsen+One&family=Prata&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind+Vadodara:wght@300;400;500;600;700&family=IBM+Plex+Sans+KR&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Phetsarath:wght@400;700&family=Poetsen+One&family=Prata&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind+Vadodara:wght@300;400;500;600;700&family=IBM+Plex+Sans+KR&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Phetsarath:wght@400;700&family=Poetsen+One&family=Prata&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind+Vadodara:wght@300;400;500;600;700&family=IBM+Plex+Sans+KR&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Phetsarath:wght@400;700&family=Poetsen+One&family=Prata&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div id="main_container">
+            <div id="imgtext_container">
+                <img src="images/haggishanimals.svg" id="animals" alt="haggish animals" title="haggish animals" />
+                <p id="img_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam,</p>
+            </div>
+            <div id="launch_container">
+                <div id="launch_heading_container">
+                    <h1 id="launch_heading">Be the first to know when we launch</h1>
+                </div>
+                <div id="launch_content_container">
+                    <p id="launch_content">We’re still building. Subscribe for updates and 20% off when we
+                        launch. No spam, we promise!</p>
+                </div>
+                <form id="subscribe_form_container" action="*">
+                    <div id="subscribe_email_container">
+                        <input type="email" placeholder="Enter your email" name="*" id="email" />
+                        <button id="subscribe_button">Subscribe</button>
+                        <p id="privacy">We care about your data in our <a href="*" id="privacy_link">privacy policy.</a>
+                        </p>
+                    </div>
+                </form>
+                <div id="whole_submit_container">
+                    <form action="*" id="submit_container">
+                        <div id="submit_heading_container">
+                            <p id="heading_container">Submit form</p>
+                        </div>
+                        <label for="form_name_container" class="form_label">Full name</label>
+                        <div id="form_name_container">
+                            <input type="text" id="form_name" placeholder="Please write you name" name="*" />
+                        </div>
+                        <label for="form_email_container" class="form_label">Email</label>
+                        <div id="form_email_container">
+                            <input type="text" id="form_email" placeholder="Please write you email" name="*" />
+                        </div>
+                        <div id="radio_container">
+                            <p id="question_one">Would you recomment GeeksforGeeks to your friends? <!--changed "a friends" to "your friends" for correct grammatical purposes--></p>
+                            <div id="radio_one_container">
+                                <input type="radio" name="*" id="radio_one" checked class="radio"/>
+                                <label for="radio_one" class="label_radio">Yes</label>
+                            </div>
+                            <div id="radio_two_container">
+                                <input type="radio" name="*" id="radio_two" class="radio"/>
+                                <label for="radio_two" class="label_radio">Yes</label>
+                            </div>
+                            <div id="radio_three_container">
+                                <input type="radio" name="*" id="radio_three" class="radio"/>
+                                <label for="radio_three" class="label_radio">Yes</label>
+                            </div>
+                        </div>
+                        <div id="checkbox_container">
+                            <p id="question_two">Language and frameworks known (Checks all that apply)</p>
+                            <div id="checkbox_one_container">
+                                <input type="checkbox" name="*" id="checkbox_one"  class="checkbox"/>
+                                <label for="checkbox_one" class="label_checkbox">C</label>
+                            </div>
+                            <div id="checkbox_two_container">
+                                <input type="checkbox" name="*" id="checkbox_two" class="checkbox"/>
+                                <label for="chekbox_two" class="label_checkbox">C++</label>
+                            </div>
+                            <div id="checkbox_three_container">
+                                <input type="checkbox" name="*" id="checkbox_three" class="checkbox"/>
+                                <label for="checkbox_three" class="label_checkbox">Java</label>
+                            </div>
+                            <div id="checkbox_four_container">
+                                <input type="checkbox" name="*" id="checkbox_four" class="checkbox" checked/>
+                                <label for="checkbox_four" class="label_checkbox">Python</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#main_container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 156px auto 115px;
+}
+
+#imgtext_container {
+    width: 100%;
+    height: 674px;
+    border-radius: 33px;
+}
+
+#img_content_container {
+    max-width: 1350px;
+    width: 100%;
+    margin-top: -640px;
+    padding-left: 71px;
+}
+
+#img_content {
+    max-width: 1350px;
+    width: 100%;
+    margin-top: -640px;
+    padding-left: 71px;
+    color: #FFF;
+    font-family: "PoetsenOne", sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 53px;
+}
+
+#launch_container {
+    max-width: 1137px;
+    width: 100%;
+    height: 350px;
+    margin: 115px auto 72px;
+    border-radius: 24px;
+    background-color: #EBF8FE;
+}
+
+#launch_heading_container {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#launch_heading {
+    color: #181D27;
+    font-family: "Inria Sans";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1.28px;
+}
+
+#launch_content_container {
+    text-align: left;
+    padding: 24px 32px;
+}
+
+#launch_content {
+    color: #535862;
+    font-family: "Instrument Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+#subscribe_email_container {
+    max-width: 488px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#email {
+    all: unset;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background-color: #FFF;
+    vertical-align: middle;
+    margin-right: 24px;
+}
+
+#email::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    color: #717680;
+}
+
+#subscribe_button {
+    display: inline;
+    vertical-align: middle;
+    max-width: 119px;
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    background-color: #007CB8;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    font-style: normal;
+    color: #fff;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: transform 0.2s ease, 0.2s ease;
+}
+
+#subscribe_button:hover {
+    transform: translateY(5px);
+    background-color: cyan;
+}
+
+#privacy {
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 20px;
+    font-style: normal;
+    color: #535862;
+    padding-top: 8px;
+}
+
+#privacy_link {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 20px;
+    font-style: normal;
+    color: #535862;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+#privacy_link:hover {
+    transform: underline;
+    color: blue;
+}
+
+#whole_submit_container {
+    padding: 40px 32px;
+    max-width: 546px;
+    width: 100%;
+    border-radius: 24px;
+    background-color: #EBF8FE;
+    margin: 0 auto;
+    margin-top: 72px;
+    height: 638px;
+}
+
+
+#submit_heading_container {
+    text-align: left;
+    padding-bottom: 24px;
+}
+
+#heading_container {
+    color: #181D27;
+    font-family: "Inria Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.8px;
+}
+
+.form_label {
+    font-family: "Inria Sans";
+    color: #1b003d;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+#form_name_container {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #380054;
+    margin-bottom: 24px;
+}
+
+#form_name {
+    all: unset;
+}
+
+#form_email {
+    all: unset;
+}
+
+#form_name::placeholder {
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#form_email::placeholder {
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#form_email_container {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #380054;
+    margin-bottom: 24px;
+}
+
+/* radios and checkboxs below */
+
+#radio_container {
+    margin-bottom: 24px;
+}
+
+#question_one {
+    padding-bottom: 7px;
+    color: #1B003D;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.label_radio {
+    padding-left: 11px;
+    padding-bottom: ;
+    vertical-align: middle;
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.radio {
+    vertical-align: middle;
+}
+
+#radio_one_container,
+#radio_two_container {
+    padding-bottom: 10px;
+}
+
+
+#question_two {
+    padding-bottom: 7px;
+    color: #1B003D;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.label_checkbox {
+    padding-left: 11px;
+    padding-bottom: ;
+    vertical-align: middle;
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.checkbox {
+    vertical-align: middle;
+}
+
+#checkbox_one_container,
+#checkbox_two_container,
+#checkbox_three_container {
+    padding-bottom: 10px;
+}
